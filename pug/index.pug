@@ -1,0 +1,12 @@
+extends templates/template.pug
+
+append config
+    -siguenos = false
+
+block main
+    h1 Home - Proyecto final
+    p Lorem ipsum dolor sit amet consectetur adipisicing elit. A, aspernatur repellendus, minus quidem dolorem enim laudantium ratione modi fuga nobis animi dolore porro perspiciatis ipsam quas expedita earum itaque ex!
+    p Proyecto de Practica #[strong SMD].
+    
+block footer
+    include blocks/siguenos.pug
